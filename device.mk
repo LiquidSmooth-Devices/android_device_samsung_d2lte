@@ -50,7 +50,19 @@ PRODUCT_COPY_FILES += \
 
 # Media configuration
 PRODUCT_COPY_FILES += \
+<<<<<<< HEAD
     device/samsung/d2lte/media/media_profiles.xml:system/etc/media_profiles.xml
+=======
+    device/samsung/d2lte/gps/gps.conf:system/etc/gps.conf
+
+# OmniTorch
+PRODUCT_PACKAGES += \
+    OmniTorch
+
+# DeviceSettings
+PRODUCT_PACKAGES += \
+    GalaxyS3Settings
+>>>>>>> 82d058c... d2lte: bringup, device settings
 
 # Wifi
 PRODUCT_COPY_FILES += \
