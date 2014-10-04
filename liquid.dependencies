@@ -18,10 +18,10 @@
         "revision": "cm-11.0"
     },
     {
-        "remote": "cm",
-        "repository": "android_kernel_samsung_d2",
+        "remote": "gh",
+        "repository": "REV3NT3CH/android_kernel_samsung_d2",
         "target_path": "kernel/samsung/d2",
-        "revision": "cm-11.0"
+        "revision": "kitkat"
     },
     {
         "remote": "tm",
