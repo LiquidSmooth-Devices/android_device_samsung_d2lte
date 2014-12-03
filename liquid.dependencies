@@ -1,32 +1,32 @@
 [
     {
-        "remote": "lsd",
+        "remote": "cm",
         "repository": "android_device_samsung_msm8960-common",
         "target_path": "device/samsung/msm8960-common",
-        "revision": "kitkat"
+        "revision": "cm-12.0"
     },
     {
-        "remote": "lsd",
+        "remote": "cm",
         "repository": "android_device_samsung_qcom-common",
         "target_path": "device/samsung/qcom-common",
-        "revision": "kitkat"
+        "revision": "cm-12.0"
     },
     {
         "remote": "cm",
         "repository": "android_hardware_samsung",
         "target_path": "hardware/samsung",
-        "revision": "cm-11.0"
+        "revision": "cm-12.0"
     },
     {
-        "remote": "gh",
-        "repository": "RelayTest/B14CKB1RD_Kernel_D2",
+        "remote": "cm",
+        "repository": "android_kernel_samsung_d2",
         "target_path": "kernel/samsung/d2",
-        "revision": "kitkat"
+        "revision": "cm-12.0"
     },
     {
-        "remote": "tm",
-        "repository": "proprietary_vendor_samsung",
+        "remote": "lsd",
+        "repository": "proprietary_vendor_samsung_d2lte",
         "target_path": "vendor/samsung",
-        "revision": "cm-11.0"
+        "revision": "lollipop"
     }
 ]

@@ -34,9 +34,6 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 # Kernel
 TARGET_KERNEL_CONFIG        := cyanogen_d2_defconfig
 
-# Toolchain
-TARGET_GCC_VERSION_ARM := 4.10-sm
-
 # Audio
 BOARD_HAVE_AUDIENCE_A2220 := true
 BOARD_HAVE_DOCK_USBAUDIO := true
